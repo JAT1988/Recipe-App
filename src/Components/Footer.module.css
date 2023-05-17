@@ -1,0 +1,16 @@
+.footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 89, 0);
+    height: 1.8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer_content {
+    font-size: 0.75rem;
+  }

@@ -1,0 +1,17 @@
+.content {
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 5rem;
+  }
+  
+  video {
+    width: 100%;
+    height: 34rem;
+    object-fit: cover;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    margin: 0.8rem;
+    padding-left: 0.5rem;
+  }

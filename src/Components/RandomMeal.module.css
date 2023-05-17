@@ -1,0 +1,50 @@
+.random {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.random img {
+    width: 300px;
+    border: 1px solid #ccc;
+    transition: all 0.4s ease;
+}
+.random img:hover {
+    transform: scale(1.1);
+}
+.randomControls {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.randomControls button {
+    margin-top: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+    background: black;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.randomInstructions {
+    text-align: center;
+    padding: 10px;
+}
+.randomInstructions p {
+    font-size: 18px;
+}
+.ingredient {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
